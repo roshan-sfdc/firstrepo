@@ -122,7 +122,7 @@ public with sharing class kk {
             Schema.DescribeFieldResult fieldResult = field.getDescribe();  
             if(fieldResult.isAccessible() && fieldResult.isUpdateable())   
                 {  
-                    listObjectFields.add(fieldResult.getName());  
+                    listObjectFields.add( fieldResult.getName());  
                 }  
             if(i == 5)  
                 break;  
